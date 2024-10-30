@@ -1,0 +1,13 @@
+Medidadas DAX utilizadas no DASHBOARD - Vendas Eletrodomésticos
+
+`DISTINCTCOUNT`: Conta os valores únicos em uma coluna.
+Clientes Atendidos = DISTINCTCOUNT(Vendas[Codigo Cliente])
+
+`SUM`: Soma todos os valores de uma coluna.
+Faturamento Total = SUM(Vendas[Faturamento])
+
+`AVERAGE`: Calcula a média dos valores em uma coluna.
+Ticket Medio = AVERAGE(Vendas[Faturamento])
+
+`SUM`: Soma todos os valores de uma coluna.
+Total Vendas = SUM(Vendas[Qtd Vendida])
